@@ -1,23 +1,6 @@
 @import './tools/colors';
 @import './tools/components';
 
-*,
-*::before,
-*::after {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-
-html {
-	scroll-behavior: smooth;
-}
-
-body {
-	background-color: $white;
-	font-size: 62.5%;
-	font-family: 'Roboto', sans-serif;
-}
-
 @import './navigation';
 @import './hero';
+@import './gender';

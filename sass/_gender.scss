@@ -1,0 +1,54 @@
+.gender {
+	&__container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	&__box {
+		display: flex;
+		justify-content: center;
+		background-color: $dark-light-color;
+		margin: 1rem;
+	}
+	&__picture {
+		max-width: 100px;
+		&--special {
+			order: 1;
+		}
+	}
+	&__text {
+		padding: 3rem;
+	}
+	&__category {
+		text-transform: uppercase;
+		font-size: 1rem;
+		color: grey;
+	}
+	&__type {
+		margin-bottom: 1rem;
+		font-size: 0.9rem;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+	&__collation {
+		@include link;
+	}
+}
+
+@media (min-width: 576px) {
+	.gender {
+		&__picture {
+			width: 400px;
+		}
+		&__category {
+			font-size: 1.5rem;
+		}
+		&__type {
+			font-size: 1.2rem;
+		}
+		&__collation {
+			font-size: 0.8rem;
+		}
+	}
+}

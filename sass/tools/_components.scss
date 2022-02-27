@@ -1,3 +1,21 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: $white;
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+}
+
 .wrapper {
 	margin: 0 auto;
 	width: 100%;
@@ -5,7 +23,12 @@
 }
 
 .section-padding {
-	padding: 5em 2em;
+	padding-top: 5em;
+	padding: 0 2em;
+}
+
+.section-margin {
+	margin-top: 3rem;
 }
 
 @mixin linkColor {
@@ -26,4 +49,15 @@
 	font-weight: bold;
 	color: $white;
 	background-color: $orange;
+}
+
+@mixin link {
+	text-decoration: none;
+	color: $grey;
+	&:visited {
+		color: transparent;
+	}
+	&:hover {
+		color: $orange;
+	}
 }
