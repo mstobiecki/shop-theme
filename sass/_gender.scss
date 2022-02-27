@@ -10,6 +10,12 @@
 		justify-content: center;
 		background-color: $dark-light-color;
 		margin: 1rem;
+		transition: transform 0.5s, border-left 0.3s, border-right 0.3s;
+		&:hover {
+			transform: scale(1.1);
+			border-left: 1px solid $orange;
+			border-right: 1px solid $orange;
+		}
 	}
 	&__picture {
 		max-width: 100px;
