@@ -609,4 +609,16 @@ body {
     font-size: 1rem;
   }
 }
+
+@media (min-width: 992px) {
+  .special__heading {
+    font-size: 2.5rem;
+  }
+  .special__descripion {
+    font-size: 1.5rem;
+  }
+  .special__button {
+    font-size: 1.2rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */
