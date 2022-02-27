@@ -288,17 +288,15 @@ body {
           justify-content: center;
   background-color: #f0f1f3;
   margin: 1rem;
-  -webkit-transition: border-left 0.3s, border-right 0.3s, -webkit-transform 0.5s;
-  transition: border-left 0.3s, border-right 0.3s, -webkit-transform 0.5s;
-  transition: transform 0.5s, border-left 0.3s, border-right 0.3s;
-  transition: transform 0.5s, border-left 0.3s, border-right 0.3s, -webkit-transform 0.5s;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
 }
 
 .gender__box:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  border-left: 1px solid #e55947;
-  border-right: 1px solid #e55947;
 }
 
 .gender__picture {
@@ -453,7 +451,7 @@ body {
 .awarded__image {
   margin-bottom: 1rem;
   padding: 1rem;
-  width: 300px;
+  width: 280px;
   background-color: #f0f1f3;
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
