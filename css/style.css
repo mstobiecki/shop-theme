@@ -450,7 +450,7 @@ body {
           align-items: center;
 }
 
-.awarded__box {
+.awarded__image {
   margin-bottom: 1rem;
   padding: 1rem;
   width: 300px;
@@ -473,5 +473,37 @@ body {
   margin-top: 0.5rem;
   font-size: 1rem;
   color: grey;
+}
+
+@media (min-width: 576px) {
+  .awarded__heading {
+    font-size: 1.5rem;
+  }
+  .awarded__link {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+  .awarded__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .awarded__image {
+    width: 400px;
+  }
+  .awarded__picture {
+    width: 300px;
+  }
+  .awarded__title {
+    font-size: 1.3rem;
+  }
+  .awarded__price {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */

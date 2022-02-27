@@ -16,7 +16,7 @@
 		justify-content: center;
 		align-items: center;
 	}
-	&__box {
+	&__image {
 		margin-bottom: 1rem;
 		padding: 1rem;
 		width: 300px;
@@ -35,5 +35,35 @@
 		margin-top: 0.5rem;
 		font-size: 1rem;
 		color: $grey;
+	}
+}
+
+@media (min-width: 576px) {
+	.awarded {
+		&__heading {
+			font-size: 1.5rem;
+		}
+		&__link {
+			margin-top: 0.5rem;
+			margin-bottom: 2rem;
+			font-size: 1rem;
+		}
+		&__container {
+			justify-content: center;
+			align-items: center;
+		}
+		&__image {
+			width: 400px;
+		}
+		&__picture {
+			width: 300px;
+		}
+		&__title {
+			font-size: 1.3rem;
+		}
+		&__price {
+			margin-bottom: 2rem;
+			font-size: 1.2rem;
+		}
 	}
 }
