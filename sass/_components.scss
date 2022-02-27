@@ -1,0 +1,29 @@
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.section-padding {
+	padding: 5em 2em;
+}
+
+@mixin linkColor {
+	color: $grey;
+	text-decoration: none;
+	font-weight: bold;
+	&:visited {
+		color: transparent;
+	}
+	&:hover {
+		color: $orange;
+	}
+}
+
+@mixin buttonColor {
+	border: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: $white;
+	background-color: $orange;
+}
