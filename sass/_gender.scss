@@ -36,9 +36,26 @@
 	}
 }
 
+@media (min-width: 440px) {
+	.gender {
+		&__box {
+			width: 350px;
+		}
+		&__category {
+			font-size: 1.4rem;
+		}
+		&__type {
+			font-size: 1.1rem;
+		}
+		&__collation {
+			font-size: 0.8rem;
+		}
+	}
+}
+
 @media (min-width: 576px) {
 	.gender {
-		&__picture {
+		&__box {
 			width: 400px;
 		}
 		&__category {
@@ -52,3 +69,23 @@
 		}
 	}
 }
+
+@media (min-width: 776px) {
+	.gender {
+		&__box {
+			width: 500px;
+		}
+		&__category {
+			font-size: 1.5rem;
+		}
+		&__type {
+			font-size: 1.2rem;
+		}
+		&__collation {
+			font-size: 0.8rem;
+		}
+	}
+}
+
+
+

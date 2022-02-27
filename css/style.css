@@ -330,9 +330,39 @@ body {
   color: #e55947;
 }
 
+@media (min-width: 440px) {
+  .gender__box {
+    width: 350px;
+  }
+  .gender__category {
+    font-size: 1.4rem;
+  }
+  .gender__type {
+    font-size: 1.1rem;
+  }
+  .gender__collation {
+    font-size: 0.8rem;
+  }
+}
+
 @media (min-width: 576px) {
-  .gender__picture {
+  .gender__box {
     width: 400px;
+  }
+  .gender__category {
+    font-size: 1.5rem;
+  }
+  .gender__type {
+    font-size: 1.2rem;
+  }
+  .gender__collation {
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 776px) {
+  .gender__box {
+    width: 500px;
   }
   .gender__category {
     font-size: 1.5rem;
