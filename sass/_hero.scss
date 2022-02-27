@@ -19,12 +19,75 @@
 		letter-spacing: 4px;
 	}
 	&__picture {
-		width: 140px;
+		width: 135px;
 	}
 	&__button {
 		margin-top: 0.5rem;
 		padding: 0.3em 0.6em;
+		cursor: pointer;
 		@include buttonColor;
+	}
+}
+
+@media (min-width: 375px) {
+	.hero {
+		&__heading {
+			margin-top: 1rem;
+			font-size: 2.5rem;
+			letter-spacing: 6px;
+		}
+		&__special {
+			font-size: 1.5rem;
+			letter-spacing: 4px;
+		}
+		&__picture {
+			width: 130px;
+		}
+		&__button {
+			padding: 0.5em 1em;
+		}
+	}
+}
+
+@media (min-width: 390px) {
+	.hero {
+		&__heading {
+			margin-top: 1rem;
+			font-size: 3rem;
+			letter-spacing: 6px;
+		}
+		&__special {
+			font-size: 2rem;
+			letter-spacing: 4px;
+		}
+		&__picture {
+			width: 140px;
+		}
+		&__button {
+			padding: 0.5em 1em;
+		}
+	}
+}
+
+@media (min-width: 500px) {
+	.hero {
+		&__heading {
+			margin-top: 1rem;
+			font-size: 4rem;
+			letter-spacing: 6px;
+		}
+		&__special {
+			font-size: 3rem;
+			letter-spacing: 4px;
+		}
+		&__picture {
+			width: 150px;
+		}
+		&__button {
+			margin-top: 1rem;
+			padding: 1em 2em;
+			font-size: 1rem;
+		}
 	}
 }
 
@@ -39,7 +102,7 @@
 			letter-spacing: 10px;
 		}
 		&__special {
-			margin-top: 2rem;
+			margin-top: 0.5rem;
 			font-size: 2rem;
 			letter-spacing: 7px;
 		}
@@ -48,7 +111,30 @@
 		}
 		&__button {
 			margin-top: 2rem;
-			padding: 1em 2em;
+			padding: 0.5em 1em;
+			font-size: 1.4rem;
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.hero {
+		&__heading {
+			font-size: 6rem;
+			letter-spacing: 10px;
+		}
+		&__special {
+			margin-top: 1rem;
+			font-size: 4rem;
+			letter-spacing: 7px;
+		}
+		&__picture {
+			width: 300px;
+		}
+		&__button {
+			padding: 0.5em 1em;
+			margin-top: 2rem;
+			font-size: 1.4rem;
 		}
 	}
 }
@@ -57,17 +143,18 @@
 	.hero {
 		&__heading {
 			margin-top: 3rem;
-			font-size: 5rem;
+			font-size: 7rem;
 			letter-spacing: 20px;
 		}
 		&__special {
-			font-size: 3rem;
+			font-size: 4rem;
 		}
 		&__picture {
 			width: 300px;
 		}
 		&__button {
-			padding: 1.5em 2.5em;
+			padding: 0.7em 1.3em;
+			font-size: 1.6rem;
 		}
 	}
 }
@@ -87,7 +174,7 @@
 			width: 400px;
 		}
 		&__button {
-			padding: 2em 4em;
+			font-size: 2rem;
 		}
 	}
 }
