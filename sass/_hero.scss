@@ -1,0 +1,47 @@
+.hero {
+	&__container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__heading {
+		font-size: 1rem;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+	}
+	&__special {
+		display: block;
+		font-size: 1rem;
+		letter-spacing: 4px;
+	}
+	&__picture {
+		width: 140px;
+	}
+	&__button {
+		margin-top: 0.5rem;
+		padding: 0.3em 0.6em;
+		@include buttonColor;
+	}
+}
+
+@media (min-width: 576px) {
+	.hero {
+		&__container {
+			justify-content: space-around;
+		}
+		&__heading {
+			font-size: 4rem;
+			letter-spacing: 10px;
+		}
+		&__special {
+			font-size: 2rem;
+			letter-spacing: 7px;
+		}
+		&__picture {
+			width: 250px;
+		}
+		&__button {
+			margin-top: 1rem;
+			padding: 1em 2em;
+		}
+	}
+}

@@ -1,0 +1,35 @@
+// === NAVIGATION SECTION ===
+
+.header {
+	background-color: $dark-light-color;
+	&__wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 1200px;
+		margin: 0 auto;
+		padding: 1rem;
+		font-size: 1rem;
+	}
+	&__logo {
+		@include linkColor;
+		color: black;
+	}
+}
+
+.navigation {
+	&__icon {
+		display: inline-block;
+		margin: 0 0.5rem;
+		padding: 0.5em;
+		font-size: 1.2rem;
+		cursor: pointer;
+	}
+	&__hamburger {
+		padding: 0.5em;
+		border: none;
+		font-size: 1.2rem;
+		background: transparent;
+		cursor: pointer;
+	}
+}
