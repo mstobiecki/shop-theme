@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AACC,MADK,CACL,EAAE,CAAC;EACF,UAAU,EAAE,MAAM;CAClB",
+    "sources": [
+        "../sass/items.scss"
+    ],
+    "names": [],
+    "file": "items.css"
+}
