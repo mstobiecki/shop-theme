@@ -455,6 +455,15 @@ body {
   padding: 1rem;
   width: 300px;
   background-color: #f0f1f3;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.awarded__image:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .awarded__picture {

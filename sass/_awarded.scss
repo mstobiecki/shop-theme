@@ -21,6 +21,10 @@
 		padding: 1rem;
 		width: 300px;
 		background-color: $dark-light-color;
+		transition: transform 0.5s;
+		&:hover {
+			transform: scale(1.1);
+		}
 	}
 	&__picture {
 		width: 200px;
