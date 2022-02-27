@@ -88,4 +88,14 @@
 }
 
 
+@media (min-width: 992px) {
+	.gender {
+		&__container {
+			justify-content: space-around;
+		}
+		&__box {
+			width: 400px;
+		}
+	}
+}
 

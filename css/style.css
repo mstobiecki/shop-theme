@@ -374,4 +374,14 @@ body {
     font-size: 0.8rem;
   }
 }
+
+@media (min-width: 992px) {
+  .gender__container {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .gender__box {
+    width: 400px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
