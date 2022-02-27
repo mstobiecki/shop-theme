@@ -61,3 +61,11 @@ body {
 		color: $orange;
 	}
 }
+
+@mixin buttonColor {
+	border: none;
+	background-color: $orange;
+	color: white;
+	text-transform: uppercase;
+	cursor: pointer;
+}

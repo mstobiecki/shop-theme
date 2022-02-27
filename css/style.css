@@ -123,10 +123,10 @@ body {
   padding: 0.3em 0.6em;
   cursor: pointer;
   border: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #fafaff;
   background-color: #e55947;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 @media (min-width: 375px) {
@@ -537,5 +537,64 @@ body {
   .awarded__picture {
     width: 200px;
   }
+}
+
+.special {
+  position: relative;
+  height: 40vh;
+  background-image: url("../img/offer.jpg");
+  background-size: cover;
+  background-position: 50% 70%;
+  background-attachment: fixed;
+  z-index: 0;
+}
+
+.special__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: -100;
+}
+
+.special__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  color: #fafaff;
+}
+
+.special__heading {
+  margin-bottom: 0.2rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.special__description {
+  font-size: 0.8rem;
+}
+
+.special__button {
+  margin-top: 1rem;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #e55947;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
