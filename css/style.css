@@ -597,4 +597,16 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+
+@media (min-width: 576px) {
+  .special__heading {
+    font-size: 2rem;
+  }
+  .special__description {
+    font-size: 1rem;
+  }
+  .special__button {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

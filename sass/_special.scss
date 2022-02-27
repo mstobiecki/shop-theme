@@ -38,3 +38,17 @@
 		@include buttonColor;
 	}
 }
+
+@media (min-width: 576px) {
+	.special {
+		&__heading {
+			font-size: 2rem;
+		}
+		&__description {
+			font-size: 1rem;
+		}
+		&__button {
+			font-size: 1rem;
+		}
+	}
+}
