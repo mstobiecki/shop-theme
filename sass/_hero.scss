@@ -1,7 +1,12 @@
 .hero {
+	background-color: $dark-light-color;
 	&__container {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	&__text {
+		text-align: center;
 	}
 	&__heading {
 		font-size: 1rem;
@@ -29,10 +34,12 @@
 			justify-content: space-around;
 		}
 		&__heading {
+			margin-top: 2rem;
 			font-size: 4rem;
 			letter-spacing: 10px;
 		}
 		&__special {
+			margin-top: 2rem;
 			font-size: 2rem;
 			letter-spacing: 7px;
 		}
@@ -40,7 +47,7 @@
 			width: 250px;
 		}
 		&__button {
-			margin-top: 1rem;
+			margin-top: 2rem;
 			padding: 1em 2em;
 		}
 	}
@@ -49,6 +56,7 @@
 @media (min-width: 976px) {
 	.hero {
 		&__heading {
+			margin-top: 3rem;
 			font-size: 5rem;
 			letter-spacing: 20px;
 		}
@@ -60,6 +68,26 @@
 		}
 		&__button {
 			padding: 1.5em 2.5em;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.hero {
+		&__heading {
+			margin-top: 5rem;
+			font-size: 7rem;
+			letter-spacing: 20px;
+		}
+		&__special {
+			font-size: 5rem;
+			letter-spacing: 10px;
+		}
+		&__picture {
+			width: 400px;
+		}
+		&__button {
+			padding: 2em 4em;
 		}
 	}
 }
