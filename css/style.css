@@ -508,22 +508,6 @@ body {
 }
 
 @media (min-width: 776px) {
-  .awarded__heading {
-    font-size: 1.5rem;
-  }
-  .awarded__link {
-    margin-top: 0.5rem;
-    margin-bottom: 2rem;
-    font-size: 1rem;
-  }
-  .awarded__container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
   .awarded__image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -537,15 +521,14 @@ body {
     width: 300px;
     margin-right: 1rem;
   }
+}
+
+@media (min-width: 1200px) {
+  .awarded__image {
+    width: 250px;
+  }
   .awarded__picture {
-    width: 300px;
-  }
-  .awarded__title {
-    font-size: 1.3rem;
-  }
-  .awarded__price {
-    margin-bottom: rem;
-    font-size: 1.2rem;
+    width: 200px;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -70,18 +70,6 @@
 
 @media (min-width: 776px) {
 	.awarded {
-		&__heading {
-			font-size: 1.5rem;
-		}
-		&__link {
-			margin-top: 0.5rem;
-			margin-bottom: 2rem;
-			font-size: 1rem;
-		}
-		&__container {
-			justify-content: center;
-			align-items: center;
-		}
 		&__image {
 			display: flex;
 			justify-content: center;
@@ -89,15 +77,16 @@
 			width: 300px;
 			margin-right: 1rem;
 		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.awarded {
+		&__image {
+			width: 250px;
+		}
 		&__picture {
-			width: 300px;
-		}
-		&__title {
-			font-size: 1.3rem;
-		}
-		&__price {
-			margin-bottom: rem;
-			font-size: 1.2rem;
+			width: 200px;
 		}
 	}
 }
