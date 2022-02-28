@@ -450,6 +450,7 @@ body {
 }
 
 .awarded__image {
+  position: relative;
   margin-bottom: 1rem;
   padding: 1rem;
   width: 280px;
@@ -463,6 +464,18 @@ body {
 .awarded__image:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.awarded__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.4em 0.8em;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #e55947;
+  color: #fafaff;
 }
 
 .awarded__picture {
@@ -502,6 +515,9 @@ body {
   }
   .awarded__image {
     width: 400px;
+  }
+  .awarded__icon {
+    font-size: 1rem;
   }
   .awarded__picture {
     width: 300px;
