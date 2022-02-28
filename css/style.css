@@ -747,4 +747,10 @@ body {
     width: 400px;
   }
 }
+
+@media (min-width: 1200px) {
+  .items__box {
+    width: 350px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
