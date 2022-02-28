@@ -712,4 +712,13 @@ body {
   font-weight: bold;
   cursor: pointer;
 }
+
+@media (min-width: 576px) {
+  .items__heading {
+    font-size: 1.5rem;
+  }
+  .items__link {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=style.css.map */

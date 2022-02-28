@@ -26,4 +26,13 @@
 	}
 }
 
-// dodać media na 576px itd
+@media (min-width: 576px) {
+	.items {
+		&__heading {
+			font-size: 1.5rem;
+		}
+		&__link {
+			font-size: 1rem;
+		}
+	}
+}
