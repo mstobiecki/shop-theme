@@ -714,11 +714,31 @@ body {
 }
 
 @media (min-width: 576px) {
+  .items__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .items__heading {
     font-size: 1.5rem;
   }
   .items__link {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 776px) {
+  .items__box {
+    margin: 1rem;
+    width: 300px;
   }
 }
 /*# sourceMappingURL=style.css.map */
