@@ -1,0 +1,25 @@
+.newsletter {
+	text-align: center;
+	&__heading {
+		margin-bottom: 0.4rem;
+		font-size: 1.4rem;
+		text-transform: uppercase;
+	}
+	&__description {
+		margin-bottom: 2rem;
+		font-size: 1.4em;
+		color: $grey;
+	}
+	&__input {
+		padding: 0.4em;
+		border: none;
+		background-color: $dark-light-color;
+	}
+	&__button {
+		padding: 0.4em;
+		border: none;
+		font-weight: bold;
+		background-color: $orange;
+		color: $white;
+	}
+}

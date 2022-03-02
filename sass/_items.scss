@@ -10,12 +10,19 @@
 		font-size: 0.7rem;
 		@include link;
 	}
+	&__container {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+	}
 	&__box {
 		position: relative;
+		width: 300px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin: 2rem 0;
+		margin: 1rem 2rem;
 		background-color: $dark-light-color;
 	}
 	&__button {
@@ -28,17 +35,15 @@
 
 @media (min-width: 576px) {
 	.items {
-		&__container {
-			display: flex;
-			flex-wrap: wrap;
-			justify-content: center;
-			align-items: center;
-		}
 		&__heading {
 			font-size: 1.5rem;
 		}
 		&__link {
 			font-size: 1rem;
+		}
+		&__box {
+			width: 250px;
+			margin: 1rem;
 		}
 	}
 }
