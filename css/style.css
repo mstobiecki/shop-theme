@@ -772,7 +772,7 @@ body {
 
 .newsletter__description {
   margin-bottom: 2rem;
-  font-size: 1.4em;
+  font-size: 1.4rem;
   color: grey;
 }
 
@@ -788,5 +788,22 @@ body {
   font-weight: bold;
   background-color: #e55947;
   color: #fafaff;
+}
+
+@media (min-width: 576px) {
+  .newsletter__heading {
+    font-size: 1.5rem;
+  }
+  .newsletter__description {
+    font-size: 1rem;
+  }
+  .newsletter__input {
+    padding: 0.7em 1.4em;
+    font-size: 1rem;
+  }
+  .newsletter__button {
+    padding: 0.7em 1.4em;
+    font-size: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
