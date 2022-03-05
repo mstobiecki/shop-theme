@@ -772,18 +772,18 @@ body {
 
 .newsletter__description {
   margin-bottom: 2rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: grey;
 }
 
 .newsletter__input {
-  padding: 0.4em;
+  padding: 0.8em 0.4em;
   border: none;
   background-color: #f0f1f3;
 }
 
 .newsletter__button {
-  padding: 0.4em;
+  padding: 0.8em 0.4em;
   border: none;
   font-weight: bold;
   background-color: #e55947;
@@ -804,6 +804,12 @@ body {
   .newsletter__button {
     padding: 0.7em 1.4em;
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .newsletter__input, .newsletter__button {
+    padding: 1em 2em;
   }
 }
 /*# sourceMappingURL=style.css.map */

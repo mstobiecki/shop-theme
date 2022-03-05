@@ -7,16 +7,16 @@
 	}
 	&__description {
 		margin-bottom: 2rem;
-		font-size: 1.4rem;
+		font-size: 1rem;
 		color: $grey;
 	}
 	&__input {
-		padding: 0.4em;
+		padding: 0.8em 0.4em;
 		border: none;
 		background-color: $dark-light-color;
 	}
 	&__button {
-		padding: 0.4em;
+		padding: 0.8em 0.4em;
 		border: none;
 		font-weight: bold;
 		background-color: $orange;
@@ -39,6 +39,15 @@
 		&__button {
 			padding: 0.7em 1.4em;
 			font-size: 1rem;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.newsletter {
+		&__input,
+		&__button {
+			padding: 1em 2em;
 		}
 	}
 }
