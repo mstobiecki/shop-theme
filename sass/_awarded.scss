@@ -57,7 +57,7 @@
 @media (min-width: 576px) {
 	.awarded {
 		&__heading {
-			font-size: 1.5rem;
+			font-size: 1.8rem;
 		}
 		&__link {
 			margin-top: 0.5rem;
@@ -89,6 +89,9 @@
 
 @media (min-width: 776px) {
 	.awarded {
+		&__heading {
+			font-size: 2rem;
+		}
 		&__image {
 			display: flex;
 			justify-content: center;
