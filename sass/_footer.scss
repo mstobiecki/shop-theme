@@ -1,2 +1,39 @@
 .footer {
+	padding-top: 1rem;
+	background-color: $footer;
+	color: $white;
+	&__heading {
+		margin-bottom: 0.5rem;
+		font-size: 1.5rem;
+		&--margin {
+			margin-top: 1.5rem;
+		}
+	}
+	&__description {
+		margin-bottom: 0.3rem;
+		font-size: 1rem;
+	}
+	&__image {
+		width: 90px;
+	}
+	&__item {
+		list-style: none;
+	}
+	&__link {
+		display: flex;
+		text-decoration: none;
+		color: $white;
+		font-size: 1rem;
+		&:visited {
+			color: transparent;
+		}
+		&:hover {
+			color: $orange;
+		}
+	}
+	&__picture {
+		margin-right: 0.3rem;
+		margin-bottom: 0.3rem;
+		max-width: 20px;
+	}
 }
