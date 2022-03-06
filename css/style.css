@@ -842,6 +842,7 @@ body {
 
 .footer {
   padding-top: 1rem;
+  padding-bottom: 1rem;
   background-color: #101010;
   color: #fafaff;
 }
@@ -861,6 +862,7 @@ body {
 }
 
 .footer__image {
+  margin: 0 0.3rem;
   width: 90px;
 }
 
@@ -889,5 +891,27 @@ body {
   margin-right: 0.3rem;
   margin-bottom: 0.3rem;
   max-width: 20px;
+}
+
+.footer__box {
+  margin-right: 2rem;
+}
+
+.footer__box--image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 576px) {
+  .footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=style.css.map */
